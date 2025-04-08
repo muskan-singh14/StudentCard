@@ -1,0 +1,40 @@
+.main
+{
+    display: flex;
+    width: 420px;
+    margin: auto;
+    background: #DAD2FF;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 15px;
+    border-bottom: 5px solid #B2A5FF;
+    transition: transform .25s;
+}
+
+body
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    background: #BFBBA9;
+}
+
+.main:hover
+{
+    transform: scale(1.25);
+}
+
+img
+{
+    width: 150px;
+}
+
+.a
+{
+    transition: transform .25s;
+}
+
+.a:hover
+{
+    transform: scale(1.15);
+}
